@@ -1,5 +1,6 @@
 "use client";
 import {comments} from "@/libs/comments";
+import Reply from "@/components/Reply";
 export default function Comment({
   userImagePath,
   username,

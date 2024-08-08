@@ -10,11 +10,11 @@ interface ReplyProps {
 }
 export type { ReplyProps };
  
-/* interface CommentPorps{
+ interface CommentPorps{
     username: string;
     commentText: string;
     likeNum: number;
     userImagePath: string;
     replies: ReplyProps[];
 }
-export type { CommentPorps }; */
+export type { CommentPorps }; 

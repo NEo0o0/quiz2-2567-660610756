@@ -35,8 +35,22 @@ export default function Home() {
             replies={comments.replies}
             key={index}
           />
+          
         ))}
 
+{comments.map((comments,index) => (
+          <Reply
+            username={comments.username}
+            likeNum={comments.likeNum}
+            userImagePath={comments.userImagePath}
+            replyText={comments.replies.replyText}
+            key={index}
+          />
+          
+        ))}
+
+
+        
         
 
         {/* Reply Example */}
